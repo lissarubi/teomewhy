@@ -1,0 +1,25 @@
+{
+  "name": "teomewhy",
+  "version": "1.0.0",
+  "description": "tell me why cantado pelo pokemao",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edersonferreira/teomewhy"
+  },
+  "author": "Ederson Ferreira <edersondeveloper@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "oloquinho": "./src/cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/edersonferreira/teomewhy/issues"
+  },
+  "homepage": "https://github.com/edersonferreira/teomewhy",
+  "dependencies": {
+    "meow": "^6.1.0"
+  }
+}
